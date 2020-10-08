@@ -1,7 +1,7 @@
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
     body {
-        margin-left: 0%;
-        margin-right: 0%;
+        width: auto;
+        height: auto;
     }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
