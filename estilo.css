@@ -112,7 +112,10 @@ nav li a:hover {
     display: block;
 }
 
+footer {
+    background-color: black;
+}
+
 footer p {
     text-align: center;
-    background-color: red;
 }
