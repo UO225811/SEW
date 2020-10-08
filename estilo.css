@@ -1,3 +1,13 @@
+@media only screen and (max-width: 768px) {
+    /*Mobile Phones*/
+    nav{
+        max-width: 100%;
+    }
+    body{
+        margin: auto;
+    }
+}
+
 body {
     background-color: rgb(54, 54, 54);
     color: white;
@@ -91,7 +101,9 @@ div {
 video {
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 nav {
