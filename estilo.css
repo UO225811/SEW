@@ -133,7 +133,7 @@ footer p {
     text-align: center;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 500px) {
     body{
         font-size: 140%;
         margin-left: 0.25%;
