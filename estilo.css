@@ -137,7 +137,7 @@ footer p {
     font-size: 120%;
 }
  
-@media all and (max-width: 740px) {
+@media all and (max-width: 1080px) {
     body{
         font-size: 140%;
         margin-left: 2%;
