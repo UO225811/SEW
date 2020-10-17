@@ -1,8 +1,4 @@
-/* Variables 
-$desktop:1200px;
-$phone:480px;
-*/
-
+/*Documento de estilos reslizado por Sergio Fernández López*/
 body {
     background-color: rgb(54, 54, 54);
     color: white;
@@ -11,7 +7,7 @@ body {
 }
 
 header {
-    display: inline-flexbox;
+    display: inline-block;
     background-image: url("multimedia/img/header-background.jpg");
     background-size: cover;
     margin-bottom: 5%;
@@ -88,7 +84,7 @@ video {
     width: 98%;
     height: auto;
 }
-
+ 
 nav {
     display: block;
 }
@@ -144,7 +140,7 @@ footer p {
         height: 50%;
     }
     caption { 
-        font-size: 140;
+        font-size: 140%;
         font-weight: bold;
     }
     
