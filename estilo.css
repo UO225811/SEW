@@ -15,6 +15,7 @@ header {
     background-image: url("multimedia/img/header-background.jpg");
     background-size: cover;
     margin-bottom: 1%;
+    font-size: 120%;
 }
 
 header h1 {
@@ -44,7 +45,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 100%;
     text-align: justify;
 }
 
@@ -65,6 +66,7 @@ li {
     list-style-type: none;
     display: inline;
     padding-right: 5px;
+    font-size: 100%;
 }
 
 caption { 
@@ -93,13 +95,16 @@ video {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 100%;
+    width: 98%;
     height: auto;
 }
 
 nav {
-    font-size: 100%;
     display: block;
+}
+
+nav a {
+    font-size: 100%;
 }
 
 nav li a:hover {
@@ -122,18 +127,20 @@ footer {
 footer p {
     text-align: center;
     margin-top: 5%;
+    font-size: 100%;
 }
 
 .warning {
     background-color: red;
     text-align: center;
+    font-size: 100%;
 }
 
 @media all and (max-width: 500px) {
     body{
         font-size: 140%;
-        margin-left: 0.25%;
-        margin-right: 0.25%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
     header{
         display:block;
@@ -152,13 +159,19 @@ footer p {
         text-align: center;
         margin: 0 auto;
     }
-    
-    tr {
-        font-size: 140%;
+
+    th,tr,td {
+        font-size: 100%;
+        display: block;
+        height: 10%;
     }
-    
-    th {
-        font-size: 140%;
+
+    tr {
+        padding: 5%;
+    }
+
+    audio {
+        size: 50%;
     }
     
     nav a {
