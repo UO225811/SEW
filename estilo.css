@@ -169,6 +169,7 @@ footer p {
 
     tr {
         padding: 5%;
+        display:inline;
     }
 
     audio {
