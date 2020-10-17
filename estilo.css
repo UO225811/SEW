@@ -100,10 +100,6 @@ video {
 nav {
     font-size: 100%;
     display: block;
-    @media (max-width:480px) {
-        font-size: 140%;
-        display: inline;
-    }
 }
 
 nav li a:hover {
@@ -163,5 +159,10 @@ footer p {
     
     th {
         font-size: 140%;
+    }
+    
+    nav a {
+        font-size: 140%;
+        display: block;
     }
 }
