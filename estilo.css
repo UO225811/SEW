@@ -154,8 +154,12 @@ footer p {
     }
 
     th,tr,td {
-        font-size: 200%;
+        font-size: 150%;
         display: block;
+    }
+
+    audio{
+        width: 600px;
     }
 
     tr {
