@@ -1,40 +1,32 @@
-@media only screen and (max-device-width: 480px) {
-    
-    body {
-        font-size: 140%;
-        margin: 0%;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-    
-    header {
-        display: inline-flexbox;
-        background-image: url("multimedia/img/header-background.jpg");
-        background-size: cover;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 93px;
-        margin-bottom: 1%;
-    }
-}
+/* Variables 
+$desktop:1200px;
+$phone:480px;
+*/
 
 body {
     background-color: rgb(54, 54, 54);
     color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-
+    @media screen (max-width:800px) {
+        margin-left: 10%;
+        margin-right: 10%;   
+    }
+    @media (max-width: 480px) {
+        font-size: 140%;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: blue;
+    }
+}
+  
 header {
     display: inline-flexbox;
     background-image: url("multimedia/img/header-background.jpg");
     background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 150px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    @media (max-width:480px) {
+        display:block;
+        font-size:25px;
+    }
 }
 
 header h1 {
@@ -48,7 +40,6 @@ header li a {
 h1,h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font
 }
 
 p,li,caption,th,tr {
@@ -119,8 +110,12 @@ video {
 }
 
 nav {
-    font-size: 24px;
+    font-size: 100%;
     display: block;
+    @media (max-width:480px) {
+        font-size: 140%;
+        display: inline;
+    }
 }
 
 nav li a:hover {
