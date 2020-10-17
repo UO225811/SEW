@@ -6,27 +6,15 @@ $phone:480px;
 body {
     background-color: rgb(54, 54, 54);
     color: white;
-    @media screen (max-width:800px) {
-        margin-left: 10%;
-        margin-right: 10%;   
-    }
-    @media (max-width: 480px) {
-        font-size: 140%;
-        margin-left: 1%;
-        margin-right: 1%;
-        background-color: blue;
-    }
+    margin-left: 10%;
+    margin-right: 10%;   
 }
-  
+
 header {
     display: inline-flexbox;
     background-image: url("multimedia/img/header-background.jpg");
     background-size: cover;
     margin-bottom: 1%;
-    @media (max-width:480px) {
-        display:block;
-        font-size:25px;
-    }
 }
 
 header h1 {
@@ -35,6 +23,39 @@ header h1 {
 
 header li a {
     text-decoration: none;
+}
+
+@media all and (max-width: 600px) {
+    body{
+        font-size: 140%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    header{
+        display:block;
+        font-size:140%;
+    }
+    img {
+        width: 50%;
+        height: 50%;
+    }
+    caption { 
+        font-size: 140%;
+        font-weight: bold;
+    }
+    
+    table {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    tr {
+        font-size: 140%;
+    }
+    
+    th {
+        font-size: 140%;
+    }
 }
 
 h1,h2 {
@@ -142,4 +163,5 @@ footer p {
 
 .warning {
     background-color: red;
+    text-align: center;
 }
