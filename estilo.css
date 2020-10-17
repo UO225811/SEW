@@ -14,12 +14,9 @@ header {
     display: inline-flexbox;
     background-image: url("multimedia/img/header-background.jpg");
     background-size: cover;
-    margin-bottom: 1%;
-    font-size: 120%;
-}
-
-header h1 {
-    margin-top: 0%;
+    margin-bottom: 5%;
+    font-size: 100%;
+    height: 20%;
 }
 
 header li a {
@@ -29,6 +26,7 @@ header li a {
 h1,h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size: 150%;
 }
 
 p,li,caption,th,tr {
@@ -36,17 +34,8 @@ p,li,caption,th,tr {
     font-size: 100%;
 }
 
-h1 {
-    text-align: center;
-    font-size: 120;
-}
-
-h2 {
-    font-size: 140%;
-}
-
 p {
-    font-size: 120%;
+    font-size: 140%;
     text-align: justify;
 }
 
@@ -71,7 +60,7 @@ li {
 }
 
 caption { 
-    font-size: 25px;
+    font-size: 120%;
     font-weight: bold;
 }
 
@@ -128,31 +117,34 @@ footer {
 footer p {
     text-align: center;
     margin-top: 5%;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 .warning {
     background-color: red;
     text-align: center;
-    font-size: 120%;
+    font-size: 140%;
 }
  
 @media all and (max-width: 1080px) {
     body{
         font-size: 140%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    p {
+        margin-bottom: 10%;
     }
     header{
         display:block;
-        font-size:70%;
+        font-size: 100%;
     }
     img {
         width: 50%;
         height: 50%;
     }
     caption { 
-        font-size: 140%;
+        font-size: 140;
         font-weight: bold;
     }
     
@@ -162,9 +154,8 @@ footer p {
     }
 
     th,tr,td {
-        font-size: 100%;
+        font-size: 120%;
         display: block;
-        height: 10%;
     }
 
     tr {
@@ -177,7 +168,7 @@ footer p {
     }
     
     nav a {
-        font-size: 140%;
+        font-size: 100%;
         display: block;
     }
 }
