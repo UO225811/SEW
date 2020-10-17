@@ -28,8 +28,8 @@ header li a {
 @media all and (max-width: 600px) {
     body{
         font-size: 140%;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 0.25%;
+        margin-right: 0.25%;
     }
     header{
         display:block;
