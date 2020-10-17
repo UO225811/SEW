@@ -168,7 +168,6 @@ footer p {
     }
     
     nav a {
-        font-size: 100%;
-        display: block;
+        display: block; 
     }
 }
