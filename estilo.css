@@ -154,17 +154,13 @@ footer p {
     }
 
     th,tr,td {
-        font-size: 120%;
+        font-size: 200%;
         display: block;
     }
 
     tr {
         padding: 5%;
         display:inline;
-    }
-
-    audio {
-        size: 50%;
     }
     
     nav a {
