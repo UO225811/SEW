@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns = "http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Anillo Ciclista Montaña Central</ name >
+<LineString>
+<extrude> 1 </extrude>
+<tessellate> 1 </tessellate>
+<coordinates>
+43.31,5.89,120
+43.29,5.93,469
+43.24,5.91,696
+43.16,5.89,896
+43.08,5.83,430
+43.11,5.66,716
+43.16,5.62,426
+43.22,5.65,877
+43.26,5.78,242
+43.30,5.86,133
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</LineString>
+<Style> id = 'lineaRoja'>
+<LineStyle>
+<color>#ff0000ff</color>
+<width> 5 </width>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name>En busca del Dorado</ name >
+<LineString>
+<extrude> 1 </extrude>
+<tessellate> 1 </tessellate>
+<coordinates>
+43.53,-6.53,12
+43.45,6.54,562
+43.40,6.54,220
+43.40,6.54,220
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</LineString>
+<Style> id = 'lineaRoja'>
+<LineStyle>
+<color>#ff0000ff</color>
+<width> 5 </width>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name>Vía Verde Senda del Oso</ name >
+<LineString>
+<extrude> 1 </extrude>
+<tessellate> 1 </tessellate>
+<coordinates>
+43.17,6.10,440
+43.26,6.00,181
+43.18,6.09,434
+43.12,6.06,680
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</LineString>
+<Style> id = 'lineaRoja'>
+<LineStyle>
+<color>#ff0000ff</color>
+<width> 5 </width>
+</LineStyle>
+</Style>
+</Placemark>
+</Document>
+</kml>
