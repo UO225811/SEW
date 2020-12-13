@@ -1,0 +1,48 @@
+#funciones {
+    margin-top: 1%;
+}
+
+p{
+    margin-bottom: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: greenyellow; 
+}
+
+
+section {
+    background-color: gray;
+    margin-right: 60%;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+}
+
+button {
+    font-size: 100%;
+}
+
+section h1 {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+section input {
+    font-size: 20px;
+    text-align: center;
+    padding: 4% 4%;
+}
+
+#pantalla {
+    text-align: left;
+    font-size: 25px;
+}
+
+#memoria {
+    background-color: greenyellow;
+    margin-right: 60%;
+}
