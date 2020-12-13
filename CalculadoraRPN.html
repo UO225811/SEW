@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/> 
+        <title>Ejercicio 5: Calculadora RPN</title>
+        <link rel="stylesheet" href="CalculadoraRPN.css">
+        <script src="CalculadoraRPN.js"></script>
+    </head>
+    <body>
+        <!--Crear pantalla-->
+        <main id="principal">
+            <h1>Calculadora RPN</h1>
+            <p id="pantalla"></p>
+        </main>
+        <!--Crear botones-->
+        <section id="funciones">
+            <h2>Funciones</h2>
+            <button id="sqrt" value="sqrt" onclick="calc.sqrt()">√</button>
+            <button id="pow2" value="x²" onclick="calc.square()">x²</button>
+            <button id="pow" value="x^y" onclick="calc.power()">x^y</button>
+            <button id="ln" value="LN" onclick="calc.ln()">ln</button>
+            <button id="erase" value="erase" onclick="calc.erase()">Erase</button>
+            <br>
+            <button id="sin" value="SIN" onclick="calc.sin()">sin</button>
+            <button id="cos" value="COS" onclick="calc.cos()">cos</button>
+            <button id="tan" value="TAN" onclick="calc.tan()">tan</button>
+            <button id="x10" value="10^x" onclick="calc.ten()">10^x</button>
+            <br>
+            <button id="factorial" value="N!" onclick="calc.factorial()">n!</button>
+            <button id="log" value="LOG" onclick="calc.log()">log</button>
+            <button id="mod" value="MOD" onclick="calc.mod()">mod</button>
+            <button id="clear" value="mrc" onclick="calc.clear()">Clear</button>   
+        </section>
+        <section id="numeros">
+            <h2>Números</h2>
+            <button id="7" value="7" onclick="calc.digito(7)">7</button>
+            <button id="8" value="8" onclick="calc.digito(8)">8</button>
+            <button id="9" value="9" onclick="calc.digito(9)">9</button>  
+            <button id="enter" value="Enter" onclick="calc.enter()">Enter</button>
+            <br>
+            <button id="4" value="4" onclick="calc.digito(4)">4</button>
+            <button id="5" value="5" onclick="calc.digito(5)">5</button>
+            <button id="6" value="6" onclick="calc.digito(6)">6</button>
+            <button id="plus" value="+" onclick="calc.add()">+</button>
+            <button id="minus" value="-" onclick="calc.sub()">-</button>
+            <br>
+            <button id="1" value="1" onclick="calc.digito(1)">1</button>
+            <button id="2" value="2" onclick="calc.digito(2)">2</button>
+            <button id="3" value="3" onclick="calc.digito(3)">3</button>
+            <button id="times"  value="*" onclick="calc.multiply()">*</button>
+            <button id="by" value="/" onclick="calc.divide()">/</button>
+            <br>
+            <button id="0" value="0" onclick="calc.digito(0)">0</button>
+            <button id="dot" value="." onclick="calc.dot()">.</button>
+        </section>
+        <section>
+            <h2>Memoria</h2>
+            <p id="pila"></p>
+        </section>       
+    </body>
+</html>
